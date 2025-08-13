@@ -659,37 +659,10 @@ footer{
 color: white;
    flex-direction: column;
  padding: auto;
- min-height: 60px;
  height: auto;
  box-sizing: border-box;
   width: 100%;
 }
-@media (max-width:640px){
-  footer{
-    flex-direction: column;
-    text-align: center;
-   
-    min-height: 75vh;
-
-  }
-}
- @media (min-width:641px) and (max-width: 1025px){
-  footer{
-       flex-direction: column;
-    text-align: center;
-   
-    min-height: 70vh;
-    }
-  }
-  @media (min-width:1030px) and (max-width: 1390px){
-  footer{
-       flex-direction: column;
-    text-align: center;
-   
-    min-height: 45vh;
-    }
-  }
-
  #link a{
 text-decoration: none;
 color: #c5bcbc;

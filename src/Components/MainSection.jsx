@@ -21,7 +21,7 @@ const MainSection = () => {
   
   return (
     <div style={{ paddingTop:'60px' }}>
-     <div className="container py-4" id='main-section' style={{ textAlign:'center' }}>
+     <div className="section py-4" id='main-section' style={{ textAlign:'center' }}>
       <div>
       <h1>Monitor the market, <br />The gateway to <span style={{ color:"purple", fontWeight:"bold" }}>Bitcoin DeFi</span></h1>
        <p>Start exploring the crypto world now, with our market tracker and the easiest way to access yield on your Bitcoin</p>
