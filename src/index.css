@@ -7,7 +7,7 @@
 body{
    background-color:#242225; 
    box-sizing: border-box;
-  height: auto;
+  height: 100%;
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
@@ -659,9 +659,13 @@ footer{
 color: white;
    flex-direction: column;
  padding: auto;
- height: auto;
  box-sizing: border-box;
   width: 100%;
+}
+.foot{
+  min-height: 100vh; /* Full height of the viewport */
+  display: flex;
+  flex-direction: column;
 }
  #link a{
 text-decoration: none;

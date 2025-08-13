@@ -7,7 +7,7 @@ import { SiGoogle,SiTesla, SiAmazon,SiMeta,SiApple,SiEthereum,SiSolana,SiPolygon
 const Footer = () => {
 
   return (
-    <div>
+    <div className='foot'>
         
     <footer> 
            <h1>Join the Matrix community</h1>
