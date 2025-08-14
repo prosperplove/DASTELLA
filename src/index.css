@@ -7,11 +7,10 @@
 body{
    background-color:#242225; 
    box-sizing: border-box;
-  height: 100%;
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  
+ 
 }
 
 /* Navbar styles */
@@ -136,7 +135,13 @@ body{
   height:auto;
 color: white ;
 }
-  
+  .deFi{
+    background: linear-gradient(135deg,#a855f7,#ff6ec7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-weight: bolder;
+  }
 
   /* Base circle for the lamp glow */
   .lamp-container{
@@ -663,7 +668,7 @@ color: white;
   width: 100%;
 }
 .foot{
-  
+  min-height: auto;
 }
  #link a{
 text-decoration: none;

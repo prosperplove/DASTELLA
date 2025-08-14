@@ -23,14 +23,14 @@ const MainSection = () => {
     <div style={{ paddingTop:'60px' }}>
      <div className="section py-4" id='main-section' style={{ textAlign:'center' }}>
       <div>
-      <h1>Monitor the market, <br />The gateway to <span style={{ color:"purple", fontWeight:"bold" }}>Bitcoin DeFi</span></h1>
+      <h1>Monitor the market, <br />The gateway to <span className='deFi'>Bitcoin DeFi</span></h1>
        <p>Start exploring the crypto world now, with our market tracker and the easiest way to access yield on your Bitcoin</p>
          <Link to="/Whitepaper"><button className='btn'>Whitepaper</button></Link>
          </div>
      </div>
     
         {/* <div className="lamp"></div> */}
-     <div className='container' id='updates' style={{border:'solid',backgroundColor:"#1a161dff", borderBlockColor:"#1a161dff"}}>
+     <div className='container' id='updates' style={{border:'solid',backgroundColor:"#1a161dff", borderBlockColor:"#1a161dff", textAlign:"center"}}>
       <div className="row">
             <div className='col-12 col-md-4 col-lg-4' style={{ color:"white" }}>
             <FaChartBar size={30} color='purple'/>
